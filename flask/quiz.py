@@ -13,6 +13,7 @@ def hello_world():
 def hey():
     return 'hey, World!'
 
+# counter api
 @app.route('/counter')
 def counter():
     count = 5
